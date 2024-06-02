@@ -1,0 +1,275 @@
+#container {
+
+    height: 950px;
+    background-color: #ffffff;
+}
+
+.bloque-top {
+
+height: 140px;
+width: auto;
+position: relative;
+background-color: #6ec1e4;
+border-bottom: 3px solid black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+
+}
+
+.primer-block {
+
+    height: 150px;
+    width: 800px;
+    background-color: #e4dede;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 15px ;
+}
+
+.segundo-block {
+
+    height: 150px;
+    width: 800px;
+    background-color: #e4dede;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 15px ;
+}
+
+.tercer-block {
+
+    height: 150px;
+    width: 800px;
+    background-color: #e4dede;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 15px ;
+}
+
+.hola {
+
+    height: auto;
+    margin-left: 350px;
+    margin-top: -8px;
+    float: left;
+    color: #ffffff;
+    
+}
+
+.imagen {
+    
+    position: relative;
+    margin-top: 8px;
+    margin-left: -240px;
+    width: 50px;
+}
+
+.looking {
+
+    margin-left: -30px;
+}
+
+.selector {
+
+    border: #010000 2px solid;
+}
+
+.paw {
+
+    position: absolute;
+    margin-top: 98px;
+    width: 30px;
+}
+
+.location {
+
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+.pin {
+
+    width: 30px;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 150px;
+
+}
+
+.text {
+
+    height: 20px;
+    position: absolute;
+    margin-left: 90px;
+    text-align: center;
+    border: #010000 2px solid;
+
+}
+
+.find-pet {
+    
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 300px;
+    font-size: 25px;
+    color: #010000 ;
+}
+
+.about {
+
+
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 450px;
+    font-size: 25px;
+    color: #010000
+}
+
+#donate {
+
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 500px;
+    font-size: 25px;
+    color: #9b51e0;
+    border-bottom: 5px solid #9b51e0;
+    
+}
+
+.friend {
+
+    position: absolute;
+    margin-left: 350px;
+    font-size: 20px;
+    background-color: #9b51e0;
+    border-bottom: 5px solid #9b51e0;
+    color: #ffffff;
+}
+
+.pepper {
+
+    width: 100px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.name {
+
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 150px;
+    
+}
+
+.description-pepper {
+
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 150px;
+    white-space: pre-wrap;
+    width: 350px;
+}
+
+#buttonpepper {
+
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 390px;
+    padding: 2px 50px;
+    font-size: 23px;
+    background-color: #36bab2;
+    color: #ffffff;
+}
+
+#sumapepper {
+
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 640px;
+    
+}
+
+.bruce {
+
+    width: 100px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.name2 {
+
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 150px;
+}
+
+.description-bruce {
+
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 150px;
+    white-space: pre-wrap;
+    width: 350px;
+}
+
+#buttonbruce {
+
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 390px;
+    padding: 2px 60px;
+    font-size: 23px;
+    background-color: #36bab2;
+    color: #ffffff;
+}
+
+#sumabruce {
+
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 640px;
+}
+
+.oscar {
+
+    width: 100px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.name3 {
+
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 150px;
+}
+
+.description-oscar {
+
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 150px;
+    white-space: pre-wrap;
+    width: 350px;
+}
+
+#buttonoscar {
+
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 390px;
+    padding: 2px 60px;
+    font-size: 23px;
+    background-color: #36bab2;
+    color: #ffffff;
+}
+
+#sumaoscar {
+
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 640px;
+}

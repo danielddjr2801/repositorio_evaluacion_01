@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <div class="bloque-top">
+
+            <img src="heart-light.png" alt="Corazon" class="imagen">
+            <img src="paw-light.png" alt="huella" class="paw">
+            <img src="pin-light.png" alt="pin" class="pin">
+            
+            <div class="hola"><h1>Pet Shelter</h1>
+            
+                <p class="looking">I'm looking for a...</p>
+            
+                <select class="selector">
+
+                    <option value="">Any Pet</option>
+                    <option value="">Cat</option>
+                    <option value="">Dog</option>
+
+                </select>
+
+                <p class="location">in or near</p>
+
+                <textarea class="text" name="" id="">City or Zip Code</textarea>
+
+                <h1 class="find-pet">Find a Pet</h1>
+                <h1 class="about">About</h1>
+
+                <button id="donate" onclick="closeDonate()">Donate</button>
+                <button class="friend">Find your new best friend</button>
+
+            
+            </div>
+
+        </div>
+
+        <div class="primer-block">
+
+            <img class="pepper" src="pepper.jpg" alt="cat">
+
+            <h1 class="name">Pepper</h1>
+                <p class="description-pepper">Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+
+                <button id="buttonpepper" onclick="sumapepper()">Pet Pepper</button>
+                <p id="sumapepper">0 Petting(s)</p>
+
+        </div>
+
+        <div class="segundo-block">
+
+            <img class="bruce" src="bruce.jpg" alt="dog1">
+
+            <h1 class="name2">Bruce</h1>
+            <p class="description-bruce">Bruce is a loyal companion. He loves long walks and cold weather.</p>
+
+            <button id="buttonbruce" onclick="sumabruce()">Pet Bruce</button>
+            <p id="sumabruce">0 Petting(s)</p>
+
+        </div>
+
+        <div class="tercer-block">
+
+            <img class="oscar" src="oscar.jpg" alt="dog2">
+
+            <h1 class="name3">Oscar</h1>
+            <p class="description-oscar">Oscar is bright, energetic and friendly. He is looking for a good home.</p>
+
+            <button id="buttonoscar" onclick="sumaoscar()">Pet Oscar</button>
+            <p id="sumaoscar">0 Petting(s)</p>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
